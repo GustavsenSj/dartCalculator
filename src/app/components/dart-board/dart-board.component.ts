@@ -100,7 +100,7 @@ export class DartBoardComponent implements OnInit {
               this.playerService.getPlayerPoints(this.playerId) -
               score -
               this.totalRoundScore <
-            2 || 
+            2
           ) {
             score = 0;
             while (this.throwScore.length < 2) {

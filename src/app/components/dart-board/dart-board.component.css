@@ -1,0 +1,21 @@
+#throws {
+  text-align: center;
+}
+
+#pointsDisplay {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pointsDisplay > div {
+  border: solid;
+  border-width: 1px;
+  margin: 0 4px 0 4px;
+  width: 60%;
+  text-align: center;
+}
+h2 {
+  text-transform: uppercase;
+}
